@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VB.ReCaptcha</id>
+    <version>1.0.2.0-beta</version>
+    <title>ReCaptcha.NET v2.0</title>
+    <authors>Vladimir Batrla</authors>
+    <owners>Vladimir Batrla</owners>
+    <licenseUrl>https://github.com/vbatrla/ReCaptcha.NET/blob/master/LICENSEE</licenseUrl>
+    <projectUrl>https://github.com/vbatrla/ReCaptcha.NET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Free .NET library for Google ReCaptcha v2.0 verification</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>ReCaptcha ASP.NET .NET Core</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+	  <group targetFramework=".NETFramework4.5" />
+	  <group targetFramework=".netcoreapp1.0">
+	   
+	  </group>
+    </dependencies>
+  </metadata>
+  <files>
+	 <file src="VB.ReCaptcha.MVC\bin\net45\*.dll" target="lib\net45" />
+	 <file src="VB.ReCaptcha.Core.MVC\bin\dotnet\*.dll" target="lib\dotnet" />
+  </files>
+</package>

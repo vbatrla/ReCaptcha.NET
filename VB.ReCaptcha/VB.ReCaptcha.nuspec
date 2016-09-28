@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VB.ReCaptcha</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/vbatrla/ReCaptcha.NET/blob/master/LICENSEE</licenseUrl>
+    <projectUrl>https://github.com/vbatrla/ReCaptcha.NET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>ReCaptcha</tags>
+  </metadata>
+</package>

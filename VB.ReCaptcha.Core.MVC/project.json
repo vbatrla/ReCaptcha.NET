@@ -1,0 +1,17 @@
+{
+  "version": "1.0.4-*",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.AspNetCore.Mvc": "1.0.0",
+    "VB.ReCaptcha.Core": "1.0.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "configurations": {
+    "dotnet": {},
+    "net45": {}
+  }
+}

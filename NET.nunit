@@ -1,0 +1,7 @@
+<NUnitProject>
+  <Settings activeconfig="Debug"/>
+  <Config name="Debug">
+    <assembly path="VB.ReCaptcha.MVC.Tests\bin\Debug\VB.ReCaptcha.MVC.Tests.dll"/>
+    <assembly path="VB.ReCaptcha.Tests\bin\Debug\VB.ReCaptcha.Tests.dll"/>
+  </Config>
+</NUnitProject>

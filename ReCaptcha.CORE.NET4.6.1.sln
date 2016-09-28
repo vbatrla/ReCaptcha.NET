@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2CB3519D-EA9E-4C1C-9B2B-C67A4DFF59F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68C3C4CB-3C74-43BB-8C52-D1B68CF828DB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VB.ReCaptcha.Core", "VB.ReCaptcha.Core\VB.ReCaptcha.Core.xproj", "{C648F925-1EED-4A3E-9A3F-278EE255794D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VB.ReCaptcha.Core.MVC", "VB.ReCaptcha.Core.MVC\VB.ReCaptcha.Core.MVC.xproj", "{302D3F40-BCC0-4F52-93E4-5D766CBFED1C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VB.ReCaptcha.Core.MVC.Tests", "VB.ReCaptcha.Core.MVC.Tests\VB.ReCaptcha.Core.MVC.Tests.xproj", "{E91C3E60-F27D-408D-8578-A753438846EF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VB.ReCaptcha.Core.Tests", "VB.ReCaptcha.Core.Tests\VB.ReCaptcha.Core.Tests.xproj", "{C8091A91-2615-4DBB-8384-01121B9AD35E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C648F925-1EED-4A3E-9A3F-278EE255794D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C648F925-1EED-4A3E-9A3F-278EE255794D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C648F925-1EED-4A3E-9A3F-278EE255794D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C648F925-1EED-4A3E-9A3F-278EE255794D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302D3F40-BCC0-4F52-93E4-5D766CBFED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302D3F40-BCC0-4F52-93E4-5D766CBFED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302D3F40-BCC0-4F52-93E4-5D766CBFED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302D3F40-BCC0-4F52-93E4-5D766CBFED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91C3E60-F27D-408D-8578-A753438846EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91C3E60-F27D-408D-8578-A753438846EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91C3E60-F27D-408D-8578-A753438846EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91C3E60-F27D-408D-8578-A753438846EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8091A91-2615-4DBB-8384-01121B9AD35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8091A91-2615-4DBB-8384-01121B9AD35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8091A91-2615-4DBB-8384-01121B9AD35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8091A91-2615-4DBB-8384-01121B9AD35E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C648F925-1EED-4A3E-9A3F-278EE255794D} = {2CB3519D-EA9E-4C1C-9B2B-C67A4DFF59F3}
+		{302D3F40-BCC0-4F52-93E4-5D766CBFED1C} = {2CB3519D-EA9E-4C1C-9B2B-C67A4DFF59F3}
+		{E91C3E60-F27D-408D-8578-A753438846EF} = {2CB3519D-EA9E-4C1C-9B2B-C67A4DFF59F3}
+		{C8091A91-2615-4DBB-8384-01121B9AD35E} = {2CB3519D-EA9E-4C1C-9B2B-C67A4DFF59F3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VB.ReCaptcha.Core</id>
+    <version>1.1.0</version>
+    <title>ReCaptcha.NET Core v2.0</title>
+    <authors>Vladimir Batrla</authors>
+    <owners>vbatrla</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/vbatrla/ReCaptcha.NET/blob/master/LICENSEE</licenseUrl>
+    <projectUrl>https://github.com/vbatrla/ReCaptcha.NET</projectUrl>
+    <description>Google ReCaptcha v2.0 for .NET Core</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>ReCaptcha Core</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="NETStandard.Library" version="[1.6,)" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\netcoreapp1.0\VB.ReCaptcha.Core.dll" target="lib\netcoreapp1.0" />
+  </files>
+</package>
