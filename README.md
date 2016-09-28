@@ -3,7 +3,8 @@ ASP.NET MVC library for easy access to Google ReCaptcha v2.0 verification servic
 
 [![Build status](https://ci.appveyor.com/api/projects/status/d96jglcys906l2ei?svg=true)](https://ci.appveyor.com/project/vbatrla/recaptcha-net)
 [![Build Status](https://travis-ci.org/vbatrla/ReCaptcha.NET.svg?branch=master)](https://travis-ci.org/vbatrla/ReCaptcha.NET)
-
+<h2>Get an API key</h2>
+<p>To get started using ReCaptcha obtain API key from google <a href="https://www.google.com/recaptcha/admin#list">https://www.google.com/recaptcha/admin</a>.</p>
 <h2>Installation</h2>
 <h3>Nuget Package</h3>
 <pre><code>PM&gt; Install-Package VB.ReCaptcha.MVC</code></pre>
