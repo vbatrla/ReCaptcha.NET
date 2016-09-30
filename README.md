@@ -7,18 +7,33 @@ ASP.NET MVC library for easy access to Google ReCaptcha v2.0 verification servic
 <p>To get started using ReCaptcha obtain API key from google <a href="https://www.google.com/recaptcha/admin#list">https://www.google.com/recaptcha/admin</a>.</p>
 <h2>Installation</h2>
 <h3>Nuget Package</h3>
+<h4>ASP.NET MVC</h4>
 <pre><code>PM&gt; Install-Package VB.ReCaptcha.MVC</code></pre>
-
+<h4>ASP.NET Core MVC</h4>
+<pre><code>PM&gt; Install-Package VB.ReCaptcha.Core.MVC</code></pre>
 <h2>Quick Start</h2>
 <p>After you create your ReCaptcha <a href="https://www.google.com/recaptcha/admin">https://google.com/recaptcha/admin</a></p>
 <ul>
 <li>
 <p>Firstly, init it with your <i>Secret</i> and <i>SiteKey</i> in <b>GLOBAL</b>.asax file.</p>
+<h4>ASP.NET MVC</h4>
 <pre>
-<code>void Application_Start(object sender, EventArgs e)
+<code>
+void Application_Start(object sender, EventArgs e)
 {
   ReCaptchaConfiguration.Init("Secret", "SiteKey");
-}</code></pre>
+}
+</code>
+</pre>
+<h4>ASP.NET Core MVC</h4>
+<pre>
+<code>
+public Startup(IHostingEnvironment env)
+{
+  ReCaptchaConfiguration.Init("Secret", "SiteKey");
+}
+</code>
+</pre>
 <p>Note: This solution is better for webfarm implementation.</p>
 </li>
 <li>
@@ -34,11 +49,36 @@ public ActionResult SomeAction(SomeModel model)
 </li>
 <li>
 <p>In <b>VIEW</b> file render javascript and google handler element at somewhere of form.</p>
-<pre><code>@using(Html.BeginForm())
+<pre>
+<code>
+@using(Html.BeginForm())
 {
   ...
   @Html.ReCaptcha()
-}</code></pre>
+}
+</code>
+</pre>
+<h4>ASP.NET Core MVC</h4>
+<pre>
+<code>
+@using(Html.BeginForm())
+{
+  ...
+  @Html.ReCaptcha()
+}
+</code>
+</pre>
+or by using Tag helpers feature
+<pre>
+<code>
+&lt;ReCaptcha&gt;&lt;/ReCaptcha&gt;
+</code>
+And add code below to _ViewImports.cshtml
+<code>
+@using VB.ReCaptcha.Core.MVC
+@addTagHelper *, VB.ReCaptcha.Core.MVC
+</code>
+</pre>
 </li>
 </ul>
 <h2>Logging</h2>
