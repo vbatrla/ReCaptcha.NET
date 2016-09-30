@@ -89,4 +89,5 @@ And add code below to _ViewImports.cshtml
 <p>That's all :-)</p>
 
 # Roadmap
-- ASP.NET Core version in active development
+- Q4 2016 - Create examples for both versions
+
